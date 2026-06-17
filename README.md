@@ -28,23 +28,9 @@ A full-stack inventory management system built with React, FastAPI, PostgreSQL, 
 - Docker Desktop installed and running
 - Git
 
-### Steps
 
-```bash
-# 1. Clone the repo
-git clone <your-repo-url>
-cd inventory-app
 
-# 2. Copy and configure environment
-cp .env.example .env
-# Edit .env if needed (default values work for local)
-
-# 3. Start everything
-docker compose up --build
-
-# 4. Open the app
-# Frontend: http://localhost:3000
-# Backend API docs: http://localhost:8000/docs
+PI docs: http://localhost:8000/docs
 ```
 
 To stop: `docker compose down`  
